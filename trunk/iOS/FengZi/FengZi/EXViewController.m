@@ -1,5 +1,6 @@
 #import "EXViewController.h"
 #import <iOSUtil/iOSTabBarController.h>
+#import <iOSUtil/iOSTab.h>
 @implementation EXViewController
 
 - (void)viewDidLoad {
@@ -8,7 +9,7 @@
 }
 
 - (NSString *)iconImageName {
-	return @"magnifying-glass.png";
+	return @"encode_button.png";
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {

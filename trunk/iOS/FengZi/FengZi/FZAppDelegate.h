@@ -7,21 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <iOSUtil/iOSAppDelegate.h>
 @class iOSTabBarController;
 
-@interface FZAppDelegate : UIResponder <UIApplicationDelegate> {
-    //iOSTabBarController *tabBarController;
+@interface FZAppDelegate : iOSAppDelegate<iOSApplicationDelegate> {
+	//
 }
-
-@property (retain, nonatomic) UIWindow *window;
-@property (nonatomic, retain) iOSTabBarController *tabBarController;
-
-@property (readonly, retain, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property (readonly, retain, nonatomic) NSManagedObjectModel *managedObjectModel;
-@property (readonly, retain, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
-
-- (void)saveContext;
-- (NSURL *)applicationDocumentsDirectory;
 
 @end
