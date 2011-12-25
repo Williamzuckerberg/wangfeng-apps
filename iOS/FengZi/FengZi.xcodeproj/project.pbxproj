@@ -9,11 +9,6 @@
 /* Begin PBXBuildFile section */
 		B8A2B0C814A6D24C00738A23 /* UserCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A2B0C614A6D24800738A23 /* UserCenter.m */; };
 		B8A2B0C914A6D24C00738A23 /* UserCenter.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8A2B0C714A6D24900738A23 /* UserCenter.xib */; };
-		B8A2B0D214A6D78B00738A23 /* magnifying-glass-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A2B0CE14A6D78A00738A23 /* magnifying-glass-selected.png */; };
-		B8A2B0D314A6D78B00738A23 /* magnifying-glass-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A2B0CF14A6D78A00738A23 /* magnifying-glass-selected@2x.png */; };
-		B8A2B0D414A6D78B00738A23 /* magnifying-glass.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A2B0D014A6D78A00738A23 /* magnifying-glass.png */; };
-		B8A2B0D514A6D78B00738A23 /* magnifying-glass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A2B0D114A6D78A00738A23 /* magnifying-glass@2x.png */; };
-		B8A2B0DA14A6D9BD00738A23 /* TabBarController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B8A2B0D914A6D8B600738A23 /* TabBarController.bundle */; };
 		B8A2B0E114A6E29600738A23 /* EXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A2B0E014A6E29500738A23 /* EXViewController.m */; };
 		B8A4FC1914A6B55F003FE4A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A4FC1814A6B55F003FE4A7 /* UIKit.framework */; };
 		B8A4FC1B14A6B55F003FE4A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A4FC1A14A6B55F003FE4A7 /* Foundation.framework */; };
@@ -24,7 +19,6 @@
 		B8A4FC2B14A6B55F003FE4A7 /* FZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A4FC2A14A6B55F003FE4A7 /* FZAppDelegate.m */; };
 		B8A4FC2E14A6B55F003FE4A7 /* FengZi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B8A4FC2C14A6B55F003FE4A7 /* FengZi.xcdatamodeld */; };
 		B8A4FC3614A6B6B4003FE4A7 /* iOSApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A4FC3414A6B6B4003FE4A7 /* iOSApi.framework */; };
-		B8A4FC3714A6B6B4003FE4A7 /* iOSUtil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A4FC3514A6B6B4003FE4A7 /* iOSUtil.framework */; };
 		B8A4FC3C14A6BB3B003FE4A7 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A4FC3B14A6BB3B003FE4A7 /* libsqlite3.dylib */; };
 		B8A4FC4214A6BBC9003FE4A7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A4FC3D14A6BBC9003FE4A7 /* AVFoundation.framework */; };
 		B8A4FC4314A6BBC9003FE4A7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A4FC3E14A6BBC9003FE4A7 /* CFNetwork.framework */; };
@@ -39,18 +33,17 @@
 		B8A4FC5414A6BCA9003FE4A7 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A4FC5014A6BCA9003FE4A7 /* MessageUI.framework */; };
 		B8A4FC5614A6BCFB003FE4A7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A4FC5514A6BCFB003FE4A7 /* SystemConfiguration.framework */; };
 		B8A4FC5814A6BDF7003FE4A7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A4FC5714A6BDF7003FE4A7 /* MobileCoreServices.framework */; };
+		B8F6998014A7058C004C1671 /* iOSUtil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A4FC3514A6B6B4003FE4A7 /* iOSUtil.framework */; };
+		B8F69A0214A772F4004C1671 /* decode_button-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = B8F699FE14A772F4004C1671 /* decode_button-selected.png */; };
+		B8F69A0314A772F4004C1671 /* decode_button.png in Resources */ = {isa = PBXBuildFile; fileRef = B8F699FF14A772F4004C1671 /* decode_button.png */; };
+		B8F69A0414A772F4004C1671 /* encode_button-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = B8F69A0014A772F4004C1671 /* encode_button-selected.png */; };
+		B8F69A0514A772F4004C1671 /* encode_button.png in Resources */ = {isa = PBXBuildFile; fileRef = B8F69A0114A772F4004C1671 /* encode_button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B8A2B0C514A6D24800738A23 /* UserCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCenter.h; sourceTree = "<group>"; };
 		B8A2B0C614A6D24800738A23 /* UserCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCenter.m; sourceTree = "<group>"; };
 		B8A2B0C714A6D24900738A23 /* UserCenter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCenter.xib; sourceTree = "<group>"; };
-		B8A2B0CE14A6D78A00738A23 /* magnifying-glass-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magnifying-glass-selected.png"; sourceTree = "<group>"; };
-		B8A2B0CF14A6D78A00738A23 /* magnifying-glass-selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magnifying-glass-selected@2x.png"; sourceTree = "<group>"; };
-		B8A2B0D014A6D78A00738A23 /* magnifying-glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magnifying-glass.png"; sourceTree = "<group>"; };
-		B8A2B0D114A6D78A00738A23 /* magnifying-glass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magnifying-glass@2x.png"; sourceTree = "<group>"; };
-		B8A2B0D714A6D8B600738A23 /* iOSUtil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iOSUtil.framework; sourceTree = "<group>"; };
-		B8A2B0D914A6D8B600738A23 /* TabBarController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TabBarController.bundle; sourceTree = "<group>"; };
 		B8A2B0DF14A6E29400738A23 /* EXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXViewController.h; sourceTree = "<group>"; };
 		B8A2B0E014A6E29500738A23 /* EXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXViewController.m; sourceTree = "<group>"; };
 		B8A4FC1414A6B55F003FE4A7 /* FengZi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FengZi.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +74,10 @@
 		B8A4FC5014A6BCA9003FE4A7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		B8A4FC5514A6BCFB003FE4A7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		B8A4FC5714A6BDF7003FE4A7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B8F699FE14A772F4004C1671 /* decode_button-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "decode_button-selected.png"; sourceTree = "<group>"; };
+		B8F699FF14A772F4004C1671 /* decode_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = decode_button.png; sourceTree = "<group>"; };
+		B8F69A0014A772F4004C1671 /* encode_button-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "encode_button-selected.png"; sourceTree = "<group>"; };
+		B8F69A0114A772F4004C1671 /* encode_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = encode_button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8F6998014A7058C004C1671 /* iOSUtil.framework in Frameworks */,
 				B8A4FC5814A6BDF7003FE4A7 /* MobileCoreServices.framework in Frameworks */,
 				B8A4FC1D14A6B55F003FE4A7 /* CoreGraphics.framework in Frameworks */,
 				B8A4FC5614A6BCFB003FE4A7 /* SystemConfiguration.framework in Frameworks */,
@@ -105,7 +103,6 @@
 				B8A4FC1F14A6B55F003FE4A7 /* CoreData.framework in Frameworks */,
 				B8A4FC3C14A6BB3B003FE4A7 /* libsqlite3.dylib in Frameworks */,
 				B8A4FC3614A6B6B4003FE4A7 /* iOSApi.framework in Frameworks */,
-				B8A4FC3714A6B6B4003FE4A7 /* iOSUtil.framework in Frameworks */,
 				B8A4FC1914A6B55F003FE4A7 /* UIKit.framework in Frameworks */,
 				B8A4FC1B14A6B55F003FE4A7 /* Foundation.framework in Frameworks */,
 			);
@@ -119,36 +116,15 @@
 			children = (
 				B8A2B0CD14A6D75F00738A23 /* images */,
 			);
-			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		B8A2B0CD14A6D75F00738A23 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				B8A2B0CE14A6D78A00738A23 /* magnifying-glass-selected.png */,
-				B8A2B0CF14A6D78A00738A23 /* magnifying-glass-selected@2x.png */,
-				B8A2B0D014A6D78A00738A23 /* magnifying-glass.png */,
-				B8A2B0D114A6D78A00738A23 /* magnifying-glass@2x.png */,
+				B8F699EF14A77112004C1671 /* tab */,
 			);
-			name = images;
-			sourceTree = "<group>";
-		};
-		B8A2B0D614A6D8B500738A23 /* iOSUtil.embeddedframework */ = {
-			isa = PBXGroup;
-			children = (
-				B8A2B0D714A6D8B600738A23 /* iOSUtil.framework */,
-				B8A2B0D814A6D8B600738A23 /* Resources */,
-			);
-			name = iOSUtil.embeddedframework;
-			path = ../../../../runtime/SDK/iOSUtil.embeddedframework;
-			sourceTree = "<group>";
-		};
-		B8A2B0D814A6D8B600738A23 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				B8A2B0D914A6D8B600738A23 /* TabBarController.bundle */,
-			);
-			path = Resources;
+			path = images;
 			sourceTree = "<group>";
 		};
 		B8A4FC0914A6B55E003FE4A7 = {
@@ -172,7 +148,6 @@
 		B8A4FC1714A6B55F003FE4A7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B8A2B0D614A6D8B500738A23 /* iOSUtil.embeddedframework */,
 				B8A4FC3414A6B6B4003FE4A7 /* iOSApi.framework */,
 				B8A4FC3514A6B6B4003FE4A7 /* iOSUtil.framework */,
 				B8A4FC3D14A6BBC9003FE4A7 /* AVFoundation.framework */,
@@ -222,6 +197,17 @@
 				B8A4FC2814A6B55F003FE4A7 /* FengZi-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8F699EF14A77112004C1671 /* tab */ = {
+			isa = PBXGroup;
+			children = (
+				B8F699FE14A772F4004C1671 /* decode_button-selected.png */,
+				B8F699FF14A772F4004C1671 /* decode_button.png */,
+				B8F69A0014A772F4004C1671 /* encode_button-selected.png */,
+				B8F69A0114A772F4004C1671 /* encode_button.png */,
+			);
+			path = tab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,11 +263,10 @@
 			files = (
 				B8A4FC2514A6B55F003FE4A7 /* InfoPlist.strings in Resources */,
 				B8A2B0C914A6D24C00738A23 /* UserCenter.xib in Resources */,
-				B8A2B0D214A6D78B00738A23 /* magnifying-glass-selected.png in Resources */,
-				B8A2B0D314A6D78B00738A23 /* magnifying-glass-selected@2x.png in Resources */,
-				B8A2B0D414A6D78B00738A23 /* magnifying-glass.png in Resources */,
-				B8A2B0D514A6D78B00738A23 /* magnifying-glass@2x.png in Resources */,
-				B8A2B0DA14A6D9BD00738A23 /* TabBarController.bundle in Resources */,
+				B8F69A0214A772F4004C1671 /* decode_button-selected.png in Resources */,
+				B8F69A0314A772F4004C1671 /* decode_button.png in Resources */,
+				B8F69A0414A772F4004C1671 /* encode_button-selected.png in Resources */,
+				B8F69A0514A772F4004C1671 /* encode_button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,10 +303,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv6,
+					armv7,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -329,11 +318,12 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -342,16 +332,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv6,
+					armv7,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -363,7 +358,6 @@
 				ARCHS = (
 					armv6,
 					armv7,
-					"$(ARCHS_STANDARD_32_BIT)",
 				);
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -387,7 +381,6 @@
 				ARCHS = (
 					armv6,
 					armv7,
-					"$(ARCHS_STANDARD_32_BIT)",
 				);
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
