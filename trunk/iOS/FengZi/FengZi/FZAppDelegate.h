@@ -8,11 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@class iOSTabBarController;
+
 @interface FZAppDelegate : UIResponder <UIApplicationDelegate> {
-    //
+    //iOSTabBarController *tabBarController;
 }
 
 @property (retain, nonatomic) UIWindow *window;
+@property (nonatomic, retain) iOSTabBarController *tabBarController;
 
 @property (readonly, retain, nonatomic) NSManagedObjectContext *managedObjectContext;
 @property (readonly, retain, nonatomic) NSManagedObjectModel *managedObjectModel;

@@ -7,10 +7,15 @@
 //
 
 #import "FZAppDelegate.h"
+#import <iOSUtil/iOSTabBarController.h>
+#import "EXViewController.h"
+#import "UserCenter.h"
 
 @implementation FZAppDelegate
 
 @synthesize window = _window;
+@synthesize tabBarController = _tabBarController;
+
 @synthesize managedObjectContext = __managedObjectContext;
 @synthesize managedObjectModel = __managedObjectModel;
 @synthesize persistentStoreCoordinator = __persistentStoreCoordinator;
@@ -26,11 +31,50 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    /*
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    //self.window.backgroundColor = [UIColor whiteColor];
+    //[self.window makeKeyAndVisible];
+    
+	self.tabBarController = [[iOSTabBarController alloc] init];
+    
+    UserCenter *uc1 = [[UserCenter alloc] initWithNibName:@"UserCenter" bundle:nil];
+    UserCenter *uc2 = [[UserCenter alloc] initWithNibName:@"UserCenter" bundle:nil];
+    UserCenter *uc3 = [[UserCenter alloc] initWithNibName:@"UserCenter" bundle:nil];
+    UserCenter *uc4 = [[UserCenter alloc] initWithNibName:@"UserCenter" bundle:nil];
+    UserCenter *uc5 = [[UserCenter alloc] initWithNibName:@"UserCenter" bundle:nil];
+    
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:
+											 [[UINavigationController alloc]
+											  initWithRootViewController:uc1],
+											 [[UINavigationController alloc]
+											  initWithRootViewController:uc2],
+											 [[UINavigationController alloc]
+											  initWithRootViewController:uc3],
+											 [[UINavigationController alloc]
+											  initWithRootViewController:uc4],
+											 [[UINavigationController alloc]
+											  initWithRootViewController:uc5],
+											 nil];
+	[self.window addSubview:self.tabBarController.view];
+	[self.window makeKeyAndVisible];
+    
     return YES;
+     */
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+	self.tabBarController = [[iOSTabBarController alloc] init];
+	self.tabBarController.viewControllers = [NSArray arrayWithObjects:
+											 [[UINavigationController alloc]
+											  initWithRootViewController:[[EXViewController alloc] init]],
+											 [[EXViewController alloc] init],
+											 [[EXViewController alloc] init],
+											 [[EXViewController alloc] init],
+											 [[EXViewController alloc] init],
+											 nil];
+	[self.window addSubview:self.tabBarController.view];
+	[self.window makeKeyAndVisible];
+	return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
