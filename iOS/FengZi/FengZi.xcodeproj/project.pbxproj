@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8A2B0C814A6D24C00738A23 /* UserCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A2B0C614A6D24800738A23 /* UserCenter.m */; };
+		B8A2B0C914A6D24C00738A23 /* UserCenter.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8A2B0C714A6D24900738A23 /* UserCenter.xib */; };
+		B8A2B0D214A6D78B00738A23 /* magnifying-glass-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A2B0CE14A6D78A00738A23 /* magnifying-glass-selected.png */; };
+		B8A2B0D314A6D78B00738A23 /* magnifying-glass-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A2B0CF14A6D78A00738A23 /* magnifying-glass-selected@2x.png */; };
+		B8A2B0D414A6D78B00738A23 /* magnifying-glass.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A2B0D014A6D78A00738A23 /* magnifying-glass.png */; };
+		B8A2B0D514A6D78B00738A23 /* magnifying-glass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A2B0D114A6D78A00738A23 /* magnifying-glass@2x.png */; };
+		B8A2B0DA14A6D9BD00738A23 /* TabBarController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B8A2B0D914A6D8B600738A23 /* TabBarController.bundle */; };
+		B8A2B0E114A6E29600738A23 /* EXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A2B0E014A6E29500738A23 /* EXViewController.m */; };
 		B8A4FC1914A6B55F003FE4A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A4FC1814A6B55F003FE4A7 /* UIKit.framework */; };
 		B8A4FC1B14A6B55F003FE4A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A4FC1A14A6B55F003FE4A7 /* Foundation.framework */; };
 		B8A4FC1D14A6B55F003FE4A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A4FC1C14A6B55F003FE4A7 /* CoreGraphics.framework */; };
@@ -34,6 +42,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B8A2B0C514A6D24800738A23 /* UserCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCenter.h; sourceTree = "<group>"; };
+		B8A2B0C614A6D24800738A23 /* UserCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCenter.m; sourceTree = "<group>"; };
+		B8A2B0C714A6D24900738A23 /* UserCenter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCenter.xib; sourceTree = "<group>"; };
+		B8A2B0CE14A6D78A00738A23 /* magnifying-glass-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magnifying-glass-selected.png"; sourceTree = "<group>"; };
+		B8A2B0CF14A6D78A00738A23 /* magnifying-glass-selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magnifying-glass-selected@2x.png"; sourceTree = "<group>"; };
+		B8A2B0D014A6D78A00738A23 /* magnifying-glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magnifying-glass.png"; sourceTree = "<group>"; };
+		B8A2B0D114A6D78A00738A23 /* magnifying-glass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magnifying-glass@2x.png"; sourceTree = "<group>"; };
+		B8A2B0D714A6D8B600738A23 /* iOSUtil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iOSUtil.framework; sourceTree = "<group>"; };
+		B8A2B0D914A6D8B600738A23 /* TabBarController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TabBarController.bundle; sourceTree = "<group>"; };
+		B8A2B0DF14A6E29400738A23 /* EXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXViewController.h; sourceTree = "<group>"; };
+		B8A2B0E014A6E29500738A23 /* EXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXViewController.m; sourceTree = "<group>"; };
 		B8A4FC1414A6B55F003FE4A7 /* FengZi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FengZi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8A4FC1814A6B55F003FE4A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B8A4FC1A14A6B55F003FE4A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -95,9 +114,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B8A2B0CC14A6D74E00738A23 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B8A2B0CD14A6D75F00738A23 /* images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B8A2B0CD14A6D75F00738A23 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B8A2B0CE14A6D78A00738A23 /* magnifying-glass-selected.png */,
+				B8A2B0CF14A6D78A00738A23 /* magnifying-glass-selected@2x.png */,
+				B8A2B0D014A6D78A00738A23 /* magnifying-glass.png */,
+				B8A2B0D114A6D78A00738A23 /* magnifying-glass@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		B8A2B0D614A6D8B500738A23 /* iOSUtil.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				B8A2B0D714A6D8B600738A23 /* iOSUtil.framework */,
+				B8A2B0D814A6D8B600738A23 /* Resources */,
+			);
+			name = iOSUtil.embeddedframework;
+			path = ../../../../runtime/SDK/iOSUtil.embeddedframework;
+			sourceTree = "<group>";
+		};
+		B8A2B0D814A6D8B600738A23 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B8A2B0D914A6D8B600738A23 /* TabBarController.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		B8A4FC0914A6B55E003FE4A7 = {
 			isa = PBXGroup;
 			children = (
+				B8A2B0CC14A6D74E00738A23 /* Resources */,
 				B8A4FC2014A6B55F003FE4A7 /* FengZi */,
 				B8A4FC1714A6B55F003FE4A7 /* Frameworks */,
 				B8A4FC1514A6B55F003FE4A7 /* Products */,
@@ -115,6 +172,7 @@
 		B8A4FC1714A6B55F003FE4A7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B8A2B0D614A6D8B500738A23 /* iOSUtil.embeddedframework */,
 				B8A4FC3414A6B6B4003FE4A7 /* iOSApi.framework */,
 				B8A4FC3514A6B6B4003FE4A7 /* iOSUtil.framework */,
 				B8A4FC3D14A6BBC9003FE4A7 /* AVFoundation.framework */,
@@ -142,10 +200,15 @@
 		B8A4FC2014A6B55F003FE4A7 /* FengZi */ = {
 			isa = PBXGroup;
 			children = (
+				B8A2B0DF14A6E29400738A23 /* EXViewController.h */,
+				B8A2B0E014A6E29500738A23 /* EXViewController.m */,
 				B8A4FC2914A6B55F003FE4A7 /* FZAppDelegate.h */,
 				B8A4FC2A14A6B55F003FE4A7 /* FZAppDelegate.m */,
 				B8A4FC2C14A6B55F003FE4A7 /* FengZi.xcdatamodeld */,
 				B8A4FC2114A6B55F003FE4A7 /* Supporting Files */,
+				B8A2B0C514A6D24800738A23 /* UserCenter.h */,
+				B8A2B0C614A6D24800738A23 /* UserCenter.m */,
+				B8A2B0C714A6D24900738A23 /* UserCenter.xib */,
 			);
 			path = FengZi;
 			sourceTree = "<group>";
@@ -213,6 +276,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8A4FC2514A6B55F003FE4A7 /* InfoPlist.strings in Resources */,
+				B8A2B0C914A6D24C00738A23 /* UserCenter.xib in Resources */,
+				B8A2B0D214A6D78B00738A23 /* magnifying-glass-selected.png in Resources */,
+				B8A2B0D314A6D78B00738A23 /* magnifying-glass-selected@2x.png in Resources */,
+				B8A2B0D414A6D78B00738A23 /* magnifying-glass.png in Resources */,
+				B8A2B0D514A6D78B00738A23 /* magnifying-glass@2x.png in Resources */,
+				B8A2B0DA14A6D9BD00738A23 /* TabBarController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +295,8 @@
 				B8A4FC2714A6B55F003FE4A7 /* main.m in Sources */,
 				B8A4FC2B14A6B55F003FE4A7 /* FZAppDelegate.m in Sources */,
 				B8A4FC2E14A6B55F003FE4A7 /* FengZi.xcdatamodeld in Sources */,
+				B8A2B0C814A6D24C00738A23 /* UserCenter.m in Sources */,
+				B8A2B0E114A6E29600738A23 /* EXViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +424,7 @@
 				B8A4FC3314A6B55F003FE4A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
